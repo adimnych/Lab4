@@ -227,3 +227,10 @@ form li {
 #age-verification + label {
   background-color: #D0D0D0;
 }
+
+/* ===== MODULAR STYLES ===== */
+
+form,label{
+  display: inline;
+  text-align: center;
+}
