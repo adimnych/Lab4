@@ -1,9 +1,12 @@
-#This is where i will create my lab4 homework assignment. 
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>HTML Form Elements</title>
   <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" media="screen" href="css/screen.css">
+  <link rel="stylesheet" media="screen" href="css/normalize-form.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
 </head>
 <body>
 <main id = "signuppage">
@@ -13,20 +16,22 @@
       Sign up for the most breaking news of the day!
       All coming from your very own, Donald Trump.
     </p>
- <ol>
+ <ul>
  	<li id ="email">
- 		<input type="email" name="email" id="email" >
+ 		<label for="email">Email: </label>
+ 		<input type="email" name="email" id= "email" placeholder="@youremail.com" />
  	</li>
  	<li id ="age-check">
- 		<input type="checkbox" name="age-check" id="age-check" value="18" />
+ 		<input type="checkbox" name="age-check" value="18" />
  		<label for="age-check"> I am older than 18 years old</label>
  	</li>
  	<li id="submitnow">
         <input type="submit" name="submit" id="submit" value="Subscribe Now" />
       </li>
-     </ol>
+     </ul>
     </form>
    </main>
-  <script src="js/style.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
+  <script src="js/site.js"></script>
 </body>
 </html>
